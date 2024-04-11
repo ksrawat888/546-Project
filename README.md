@@ -11,3 +11,7 @@ Traditional sentiment analysis, commonly used in the industry, often struggles t
 ### Dataset
 We are using OPENICOSR data set: COVID-19 Twitter Dataset with Latent Topics, Sentiments and Emotions Attributes. This is a large global dataset on people’s discourse and responses to the COVID-19 pandemic over the Twitter platform in the world. The dataset analyzed tweets with the words “corona”, “Wuhan”, “nCov” and “covid”. The dataset contains COVID-19 related tweets, analyzed for topics, sentiments, and emotions, useful for various interdisciplinary studies. The dataset that we have is already pre-processed by analyzing tweets. We will clean the dataset and perform data wrangling by extracting more features from the data available. 
 
+### Visuals
+In terms of visuals, we first wanted to visualize some basic information related to the dataset: 
+<img src="https://github.com/ksrawat888/546-Project/blob/main/piechart1.png" width="350" height="200">
+<img src="https://github.com/ksrawat888/546-Project/blob/main/piechart2.png" width="350" height="200">
