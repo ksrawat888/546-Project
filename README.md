@@ -13,5 +13,9 @@ We are using OPENICOSR data set: COVID-19 Twitter Dataset with Latent Topics, Se
 
 ### Visuals
 In terms of visuals, we first wanted to visualize some basic information related to the dataset: 
-<img src="https://github.com/ksrawat888/546-Project/blob/main/piechart1.png" width="350" height="200">
-<img src="https://github.com/ksrawat888/546-Project/blob/main/piechart2.png" width="350" height="200">
+
+<div class="image-container">
+    <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart1.png" width="350" height="350">
+    <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart2.png" width="350" height="350">
+    <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart3png.png" width="350" height="350">
+</div>
