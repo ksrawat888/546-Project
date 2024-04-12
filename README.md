@@ -48,16 +48,16 @@ The results show that there doesn't seem to be any correlation between different
 ## Time Series:
 After this, we decided to go in detail and perform time series analysis to analyze how emotions were influened by the time components in the data
 
-<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by time.png" width="600" height="500">
-<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by month.png" width="600" height="500">
-<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by day.png" width="600" height="500">
-<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by hour.png" width="600" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by time.png" width="700" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by month.png" width="700" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by day.png" width="700" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by hour.png" width="700" height="500">
 
 
-<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by year.png" width="600" height="500">
-<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by month.png" width="600" height="500">
-<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by day.png" width="600" height="500">
-<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by hour.png" width="600" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by year.png" width="700" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by month.png" width="700" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by day.png" width="700" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by hour.png" width="700" height="500">
 
 
 ##### Firstly, we plotted the daily average intensity of each emotion in our dataset:
