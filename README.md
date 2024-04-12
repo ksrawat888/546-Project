@@ -12,10 +12,61 @@ Traditional sentiment analysis, commonly used in the industry, often struggles t
 We are using OPENICOSR data set: COVID-19 Twitter Dataset with Latent Topics, Sentiments and Emotions Attributes. This is a large global dataset on people’s discourse and responses to the COVID-19 pandemic over the Twitter platform in the world. The dataset analyzed tweets with the words “corona”, “Wuhan”, “nCov” and “covid”. The dataset contains COVID-19 related tweets, analyzed for topics, sentiments, and emotions, useful for various interdisciplinary studies. The dataset that we have is already pre-processed by analyzing tweets. We will clean the dataset and perform data wrangling by extracting more features from the data available. 
 
 ### Visuals
-In terms of visuals, we first wanted to visualize some basic information related to the dataset: 
+In terms of visuals, we first wanted to visualize some basic information related to the dataset. These pie charts indicate : 
 
 <div class="image-container">
-    <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart1.png" width="350" height="350">
-    <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart2.png" width="350" height="350">
-    <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart3png.png" width="350" height="350">
+    <div class="image-wrapper">
+        <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart1.png" width="350" height="350">
+        <p>Among the keywords, "COVID" is the most popular</p>
+    </div>
+    <div class="image-wrapper">
+        <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart2.png" width="350" height="350">
+        <p>Years most popular in terms of COVID related tweets</p>
+    </div>
+    <div class="image-wrapper">
+        <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart3png.png" width="350" height="350">
+        <p>The distribution of sentiments expressed in the tweets </p>
+    </div>
 </div>
+
+## Correlation: 
+
+##### Emotions with Emotions
+We want to see the relationship between different emotions. We plotted scatterplots to visualize the relationships.
+
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/valence.png" width="600" height="500">
+
+As expected, positive emotions tend to have a linear relation amongst each other. Similarly, negative emotions have a linear relation with each other. Conversely, positive and negative emotions have a non-linear relationship.
+
+##### Emotions with time components
+We wanted to see the correlation between different emotions and time components of our dataset. We used the correlation function to calculate the relationship and then generated a heatmap:
+
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/heatmap.png" width="600" height="500">
+
+The results show that there doesn't seem to be any correlation between different emotions and time components.
+
+## Time Series:
+After this, we decided to go in detail and perform time series analysis to analyze how emotions were influened by the time components in the data
+
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by time.png" width="600" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by month.png" width="600" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by day.png" width="600" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/sentiment by hour.png" width="600" height="500">
+
+
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by year.png" width="600" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by month.png" width="600" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by day.png" width="600" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by hour.png" width="600" height="500">
+
+
+##### Firstly, we plotted the daily average intensity of each emotion in our dataset:
+
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/timeseries.png" width="700" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/decomposed.png" width="700" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/autocorrelation.png" width="600" height="500">
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/partial.png" width="600" height="500">
+
+
+
+
