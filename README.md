@@ -9,7 +9,7 @@ Twitter (now known as X) is a social media platform where users can post and int
 Traditional sentiment analysis, commonly used in the industry, often struggles to capture the subtleties and context embedded in social media language. For instance, a simple positive/negative categorization may overlook the complexities of sentiments expressed during a global crisis, leading to an incomplete understanding. Among all the social media, Twitter is the best data collection option. Additionally, users on Twitter are more likely to express more of their emotions than other social media where they are more likely to filter their expression, such as only expressing happy emotions. 
 
 ### Dataset
-We are using OPENICOSR data set: COVID-19 Twitter Dataset with Latent Topics, Sentiments and Emotions Attributes. This is a large global dataset on people’s discourse and responses to the COVID-19 pandemic over the Twitter platform in the world. The dataset analyzed tweets with the words “corona”, “Wuhan”, “nCov” and “covid”. The dataset contains COVID-19 related tweets, analyzed for topics, sentiments, and emotions, useful for various interdisciplinary studies. The dataset that we have is already pre-processed by analyzing tweets. We will clean the dataset and perform data wrangling by extracting more features from the data available. 
+We are using OPENICOSR data set: COVID-19 Twitter Dataset with Latent Topics, Sentiments and Emotions Attributes. This is a large global dataset on people’s discourse and responses to the COVID-19 pandemic over the Twitter platform in the world. The dataset analyzed tweets with the words “corona”, “Wuhan”, “nCov” and “covid”. The dataset contains COVID-19 related tweets, analyzed for topics, sentiments, and emotions, useful for various interdisciplinary studies. The dataset that we have is already pre-processed by analyzing tweets. We will clean the dataset and perform data wrangling by extracting more features from the data available. Link: https://doi.org/10.3886/E120321V12
 
 ### Visuals
 In terms of visuals, we first wanted to visualize some basic information related to the dataset. These pie charts indicate : 
@@ -83,5 +83,8 @@ Seasonality: Look for patterns that repeat at regular intervals which might indi
 <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/partial.png" width="600" height="500">
 
 
+#### ARIMA: ARIMA stands for Autoregressive Integrated Moving Average. It is a popular statistical method used for time series forecasting and analysis. 
+ARIMA models are widely used for time series forecasting across various fields due to their ability to capture different aspects of time series data
 
+<img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/ARIMA forecast.png" width="600" height="500">
 
