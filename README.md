@@ -24,7 +24,7 @@ In terms of visuals, we first wanted to visualize some basic information related
         <p>Years most popular in terms of COVID related tweets</p>
     </div>
     <div class="image-wrapper">
-        <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart3png.png" width="350" height="350">
+        <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/piechart3.png" width="350" height="350">
         <p>The distribution of sentiments expressed in the tweets </p>
     </div>
 </div>
