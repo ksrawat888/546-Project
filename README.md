@@ -60,11 +60,26 @@ After this, we decided to go in detail and perform time series analysis to analy
 <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/emotion by hour.png" width="700" height="500">
 
 
-##### Firstly, we plotted the daily average intensity of each emotion in our dataset:
+##### This image displays a set of time series graphs, each tracking the intensity of different emotions—Valence, Fear, Anger, Happiness, and Sadness—over a period from January 2020 to around July 2022.
 
+The graphs show the trend analysis, noting if the intensity of each emotion has increased, decreased, or remained stable over time: 
 <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/timeseries.png" width="700" height="500">
+
+
+Seasonality: Look for patterns that repeat at regular intervals which might indicate seasonal effects: 
 <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/decomposed.png" width="700" height="500">
+
+
+*Autocorrelation Function (ACF)*:
+   - ACF measures the correlation between observations at different lags.
+   - Note the gradual decline in correlation as the lags increase, which is typical for a time series where immediate past values have a stronger relationship with the current value than the more distant past.
+     
 <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/autocorrelation.png" width="600" height="500">
+
+*Partial Autocorrelation Function (PACF)*:
+   - PACF measures the direct relationship between an observation and its lag.
+   - Explain the significance of the first lag having a high correlation and the subsequent lags falling within the confidence interval, suggesting that past values have a significant direct effect only at the first lag.
+
 <img src="https://raw.githubusercontent.com/ksrawat888/546-Project/main/partial.png" width="600" height="500">
 
 
