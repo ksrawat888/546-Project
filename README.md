@@ -1,5 +1,5 @@
 # Twitter Sentiment Analysis
-MIS-546 Project Portfolio 
+MIS-546 Project Portfolio: Akash Bhupesh, Arnold Ukagwu, Karan Rawat, Marsya Yasin
 
 ### Introduction
 COVID-19, a global pandemic caused by the coronavirus, has profoundly impacted the world through widespread illness, economic disruption, social upheaval, and highlighted systemic vulnerabilities in our world. It had an immense impact on the mental and physical health on people due to death, sickness, job layoffs, lockdowns, and limitations on daily activities.  
